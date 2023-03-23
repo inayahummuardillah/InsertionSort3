@@ -15,6 +15,10 @@ void input()
 		{   //Membuat kondisi n tidak lebh dari 20
 			break;
 		}
+		else
+		{
+			cout << "\nArray yang anda masukan maksimal 20 element. \n";   //Menampilkan pesan jika
+		}
 	}
 
 }
