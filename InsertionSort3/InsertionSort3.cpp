@@ -75,3 +75,11 @@ void display()
 	}
 	cout << endl;     //Output baris kosong
 }
+
+
+int main()
+{
+	input();                //Memanggil input
+    void insertionsort();   //Memanggil insertionsort
+	display();              //Memaggil display
+}
