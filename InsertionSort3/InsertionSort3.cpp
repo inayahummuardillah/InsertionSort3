@@ -10,6 +10,11 @@ void input()
 	{
 		cout << "Masukan jumlah data pada Array : ";   //Membuat inputan jumlah element Array
 		cin >> n;                                      //Memanggil variable inputan n
+
+		if (n <= 20)
+		{   //Membuat kondisi n tidak lebh dari 20
+			break;
+		}
 	}
 
 }
