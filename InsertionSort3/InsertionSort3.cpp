@@ -48,5 +48,15 @@ void Insertionsort()
 			arr[j + 1] = arr[j];        //a. Simpan arr[j] ke dalam variable arr[j + 1]
 			j--;                        //b. Decrement nilai j by 1
 		}
+
+		arr[j + 1] = temp;              //5. Simpan nilai temp ke dalam arr[j + 1]
+
+		cout << endl;
+		cout << "\nPass " << ": ";      //Output ke layar
+		for (int k = 0; k < n; k++)
+		{                               //Looping nilai k dimulai dari 0 higga n-1
+			cout << arr[k] << " ";      //Output ke layar
+
+		}
 	}
 }
